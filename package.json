@@ -1,0 +1,32 @@
+{
+  "name": "videocontext",
+  "version": "1.0.0",
+  "description": "A front-end library for video or image processing",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langhuihui/VideoContext.git"
+  },
+  "keywords": [
+    "video",
+    "image",
+    "processing",
+    "mix",
+    "mirror"
+  ],
+  "author": "dexter",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/langhuihui/VideoContext/issues"
+  },
+  "homepage": "https://github.com/langhuihui/VideoContext#readme",
+  "dependencies": {
+    "@types/dom-mediacapture-transform": "^0.1.7",
+    "@types/dom-webcodecs": "^0.1.8",
+    "afsm": "^2.4.5",
+    "wtimer": "^1.0.3"
+  }
+}

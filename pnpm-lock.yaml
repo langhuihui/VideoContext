@@ -1,0 +1,45 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@types/dom-mediacapture-transform':
+    specifier: ^0.1.7
+    version: 0.1.7
+  '@types/dom-webcodecs':
+    specifier: ^0.1.8
+    version: 0.1.8
+  afsm:
+    specifier: ^2.4.5
+    version: 2.4.5
+  wtimer:
+    specifier: ^1.0.3
+    version: 1.0.3
+
+packages:
+
+  /@types/dom-mediacapture-transform@0.1.7:
+    resolution: {integrity: sha512-xrFtEIDCn+VeMEYm4JdjLEOeho3dsTxOxx4hDqCA0WRrENF4DMTF9JaTzTRUVc5rI58j9nRTxIZlU1Wqfr08PA==}
+    dependencies:
+      '@types/dom-webcodecs': 0.1.8
+    dev: false
+
+  /@types/dom-webcodecs@0.1.8:
+    resolution: {integrity: sha512-KThTPaGQJLITk8Q0XkEkz+GqFdoWDyQfbyeJmfEUagB15TZQdNx5AqP2b7GP6vkVM6X/6T1Z8EHxA8RgHfY9BA==}
+    dev: false
+
+  /afsm@2.4.5:
+    resolution: {integrity: sha512-Sk+ujn6zFyoVg8mKyzNBuxuXKDRC06Zos/EZJN8GwfAAwxXXtKvalJ/ZD3JLX67YndBJSroO5tBe0sv8r/bobg==}
+    dependencies:
+      eventemitter3: 4.0.7
+    dev: false
+
+  /eventemitter3@4.0.7:
+    resolution: {integrity: sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==}
+    dev: false
+
+  /wtimer@1.0.3:
+    resolution: {integrity: sha512-4eVRiUl5ssEbs3Vi9ScDUgKDzBDAFfudqeFx2dHvijlOIGYw+R9mcjtmM9HMZO1MZ9YopGivcU3ayuGmLDOpOQ==}
+    dev: false
